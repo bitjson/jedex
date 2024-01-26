@@ -2,7 +2,7 @@
 
 Jedex – **Joint-Execution Decentralized Exchange** – is a technical demonstration of a decentralized exchange built on Bitcoin Cash using [CashTokens](https://github.com/bitjson/cashtokens).
 
-[Review contracts in Bitauth IDE &rarr;](https://alpha.ide.bitauth.com/import-gist/d78b6b8e7fd4f621c5f80a00c7b79cf7)
+[Review contracts in Bitauth IDE &rarr;](https://ide.bitauth.com/import-gist/d78b6b8e7fd4f621c5f80a00c7b79cf7)
 
 - [Summary](#summary)
 - [Liquidity Provider (LP)](#liquidity-provider-lp)
@@ -21,9 +21,9 @@ Jedex – **Joint-Execution Decentralized Exchange** – is a technical demonstr
 
 Jedex allows users to trade between BCH and a fungible token (FT) using a constant product market making algorithm. To improve liquidity and minimize both slippage and spend races, trades occur in large batches – a "tick" – approximately every 2 hours (configurable). Users submit orders prior to each tick, and all orders are aggregated with the funds/tokens already in the liquidity pool to determine the settlement price for the tick. This design reduces the trading advantage of miners and well-connected nodes.
 
-[![A screenshot of the DEX covenant merging a thread](docs/merge_threads.png)](https://alpha.ide.bitauth.com/import-gist/d78b6b8e7fd4f621c5f80a00c7b79cf7)
+[![A screenshot of the DEX covenant merging a thread](docs/merge_threads.png)](https://ide.bitauth.com/import-gist/d78b6b8e7fd4f621c5f80a00c7b79cf7)
 
-[Review contracts in Bitauth IDE &rarr;](https://alpha.ide.bitauth.com/import-gist/d78b6b8e7fd4f621c5f80a00c7b79cf7)
+[Review contracts in Bitauth IDE &rarr;](https://ide.bitauth.com/import-gist/d78b6b8e7fd4f621c5f80a00c7b79cf7)
 
 ## Liquidity Provider (LP)
 
